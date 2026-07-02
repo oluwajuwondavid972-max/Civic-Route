@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Civic Route — Frontend
 
 Citizen complaint router for Local Government Councils.
@@ -59,3 +60,7 @@ src/
 - Fonts: **Archivo** (display), **Public Sans** (body), **IBM Plex Mono** (tracking IDs, timestamps, labels)
 - Colours live in `styles/variables.css` — change tokens there, never hardcode hex in components
 - Urgency (set by AI) uses `UrgencyChip`; status (set by officials) uses `StatusBadge` — don't merge them
+=======
+# Civic-Route
+A shared repo for Civic Engagement. This project serves as complain Router in the Local Government Level integrated with stacks like React, Python and LLM agents.
+>>>>>>> 25c380b1773f81c2a83208e557776225b3e577ba
