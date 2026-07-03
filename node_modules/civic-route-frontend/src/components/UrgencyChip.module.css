@@ -1,0 +1,31 @@
+.chip {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-xs);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-sm);
+  border-width: 1.5px;
+  border-style: solid;
+  white-space: nowrap;
+}
+
+.high {
+  color: var(--alert-red);
+  background-color: var(--alert-red-tint);
+  border-color: var(--alert-red);
+}
+
+.medium {
+  color: #8a6d00;
+  background-color: var(--signal-amber-tint);
+  border-color: var(--signal-amber);
+}
+
+.low {
+  color: var(--calm-blue);
+  background-color: var(--calm-blue-tint);
+  border-color: var(--calm-blue);
+}
